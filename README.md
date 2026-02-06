@@ -12,3 +12,6 @@
 - 动态减速：滚动后期逐渐变慢，模拟真实转盘；
 - 结果展示：抽中奖品/谢谢参与，顶部弹窗提示；
 - 固定布局：视窗缩放不改变元素尺寸。
+
+##界面概览
+<img width="621" height="722" alt="image" src="https://github.com/user-attachments/assets/b6da0b8b-87ab-4d6c-a202-f3e0c37b5dc7" />
