@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-width: 600px;
+  background:linear-gradient(45deg, #055bab,#87bff3);
+}
+.show-prize{
+  display: none;
+  position: absolute;
+  top: 10px;
+  width: 300px;
+  height: 80px;
+  background: #94D1FF;
+  color: #0b64d9;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  width: 580px;
+  height: 580px;
+  padding: 40px;
+  border: 10px solid #94d1ff;
+  border-radius: 10px;
+}
+.container .img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #35519c;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4),
+  inset 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+/* 点亮的元素变色 */
+.container .img-box.select {
+  background: #f8f080d4;
+}
+.container .img-box img {
+  width: 80%;
+  height: 80%;
+}
+.container .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #79b6ef;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3),
+  inset 5px 5px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.container .btn p {
+  font-size: 2em;
+  color: #fff;
+}
