@@ -54,13 +54,10 @@ function startLottery(){
     imgArr.forEach((item) => {
       item.classList.remove('select')
     })
-
     // 2.按顺序点亮当前奖品
     imgArr[PrizeArr[index].key].classList.add('select')
-
     // 3.循环次数增加
       currentCount++
-   
     // 判断是否停止抽奖
     if(currentCount == countsTotal){
       // 清除并初始化定时器timer
@@ -87,7 +84,6 @@ function startLottery(){
       interval += (currentCount-countsTotal+12)*20
       timer = setTimeout(lottery,interval)
     }
-
     // 数组的索引增加，而且在8个奖品元素间循环
       index++ 
     if (index == 8) {
