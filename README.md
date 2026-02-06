@@ -1,7 +1,7 @@
 # 九宫格抽奖程序
 🎉 基于HTML+CSS+JS实现的前端九宫格抽奖demo
 
-[![访问网站](https://reach1020.github.io/Nine-grid-lottery-draw-/)]
+[![访问网站](https://img.shields.io/badge/访问网站-点击进入-blue)](https://reach1020.github.io/Nine-grid-lottery-draw/)
 
 ## 技术栈
 - HTML5
